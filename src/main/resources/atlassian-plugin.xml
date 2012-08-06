@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
+  <plugin-info>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+    <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+  </plugin-info>
+  <web-item key="sponsor-issue" name="Sponsor this issue" section="operations-operations" weight="100">
+    <label>Sponsor this issue!</label>
+    <tooltip>Sponsors the issue at FreedomSponsors.org</tooltip>
+    <link linkId="manage-project-link" absolute="true">http://www.freedomsponsors.org/core/issue/sponsor?trackerURL=${baseurl}/browse/${issue.key}</link>
+  </web-item>
+  <resource type="i18n" name="i18n" location="org.freedomsponsors.plugins.jira"/>
+  <web-panel name="SponsorThis" i18n-name-key="sponsor-this.name" key="sponsor-this" location="atl.jira.view.issue.right.context" weight="1000">
+	<label key="sponsor-this.title"/>
+    <description key="sponsor-this.description">The SponsorThis Plugin</description>
+    <!--<context-provider class="org.freedomsponsors.plugins.jira.SponsorThis"/>-->
+    <resource name="view" type="velocity" location="sponsorthis.vm"/>	
+  </web-panel>
+</atlassian-plugin>
