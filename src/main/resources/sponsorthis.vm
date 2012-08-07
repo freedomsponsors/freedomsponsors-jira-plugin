@@ -1,3 +1,3 @@
 <p>
-	<a style="font-weight: bold; color: green;" href="http://www.freedomsponsors.org/core/issue/sponsor?trackerURL=${baseurl}/browse/${issue.key}">Sponsor $issue.key on FreedomSponsors.org $issue.project.url</a>
+	<a style="font-weight: bold; color: green;" href="http://www.freedomsponsors.org/core/issue/sponsor?trackerURL=${baseUrl}/browse/${issueKey}">Sponsor $issueKey on FreedomSponsors.org</a>
 </p>
