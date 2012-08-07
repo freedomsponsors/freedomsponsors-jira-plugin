@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.freedomsponsors.jira</groupId>
     <artifactId>freedomsponsors-jira-plugin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <organization>
         <name>FreedomSponsors</name>
         <url>http://www.freedomsponsors.org/</url>
@@ -79,5 +79,10 @@
     <properties>
         <jira.version>5.0</jira.version>
         <amps.version>3.9.3</amps.version>
+        <username>git</username>
     </properties>
+    <scm>
+        <connection>scm:git:github.com:freedomsponsors/www.freedomsponsors.org.git</connection>
+        <developerConnection>scm:git:github.com:freedomsponsors/www.freedomsponsors.org.git</developerConnection>
+    </scm>
 </project>
