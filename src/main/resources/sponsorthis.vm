@@ -1,6 +1,6 @@
 <p>
 	<a style="font-weight: bold; color: green;" 
-	href="http://ambtest.freedomsponsors.org/core/issue/sponsor?trackerURL=${baseUrl}/browse/${issueKey}"
+	href="http://www.freedomsponsors.org/core/issue/sponsor?trackerURL=${baseUrl}/browse/${issueKey}"
 	target="_fs">
 	Sponsor $issueKey on FreedomSponsors.org</a>
 </p>
