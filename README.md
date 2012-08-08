@@ -2,7 +2,7 @@ This is the FreedomSponsors "SponsorThis" plugin for JIRA.
 
 When installed, it will add a nice, discrete "Sponsor this" section on your JIRA's issue view, like the screenshot below.
 
-![SponsorThis](freedomsponsors.github.com/freedomsponsors-jira-plugin/screenshot.png)
+![SponsorThis](http://freedomsponsors.github.com/freedomsponsors-jira-plugin/screenshot.png)
 
 Here are the SDK commands you'll use immediately:
 
