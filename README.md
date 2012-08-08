@@ -64,7 +64,7 @@ If you can build it, here are a few other SDK commands you'll want to use:
                  - 'pi' reinstalls the plugin into the running JIRA instance
 * atlas-help  -- prints description for all commands in the SDK
 
-If you find the above is somehow incorrect or incomplete, please reopen #2 and let us know.
+If you find the above is somehow incorrect or incomplete, please reopen [#2](https://github.com/freedomsponsors/freedomsponsors-jira-plugin/issues/2) and let us know.
 
 For more information, refer to the Atlassian documentation:
 https://developer.atlassian.com/display/PLUGINFRAMEWORK/Writing+Atlassian+Plugins
