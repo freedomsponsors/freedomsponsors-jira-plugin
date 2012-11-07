@@ -2,8 +2,10 @@ This is the [FreedomSponsors](http://www.freedomsponsors.org) "SponsorThis" plug
 
 When installed, it will add a nice, discrete "Sponsor this" section on your JIRA's issue view, like the screenshot below.
 
-That link leads to a FreedomSponsors page where the user can place a bounty for that issue.\\
+The link leads to a FreedomSponsors page where the user can place a bounty for that issue.
+
 You can also see it in action on [Jenkins' JIRA](https://issues.jenkins-ci.org/browse/JENKINS-12345).
+
 Similar functionality is also available for the Github issue tracker ([learn more](http://blog.freedomsponsors.org/freedomsponsors-github-integration/))
 
 ![SponsorThis](http://freedomsponsors.github.com/freedomsponsors-jira-plugin/screenshot.png)
