@@ -6,7 +6,7 @@ The link leads to a FreedomSponsors page where the user can place a bounty for t
 
 You can also see it in action on [Jenkins' JIRA](https://issues.jenkins-ci.org/browse/JENKINS-12345).
 
-Similar functionality is also available for the Github issue tracker ([learn more](http://blog.freedomsponsors.org/freedomsponsors-github-integration/))
+Similar functionality is also available for Bugzilla (see the [Bugzilla plugin](https://github.com/freedomsponsors/freedomsponsors-bugzilla-plugin)) and the Github issue tracker ([learn more](http://blog.freedomsponsors.org/freedomsponsors-github-integration/))
 
 ![SponsorThis](http://freedomsponsors.github.com/freedomsponsors-jira-plugin/screenshot.png)
 
