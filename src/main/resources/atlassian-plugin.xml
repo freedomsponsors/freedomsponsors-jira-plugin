@@ -10,7 +10,7 @@
     <label>Sponsor this issue!</label>
     <tooltip>Sponsors the issue at FreedomSponsors.org</tooltip>
 	<context-provider class="org.freedomsponsors.plugins.jira.SponsorThis"/>
-    <link linkId="manage-project-link" absolute="true">http://www.freedomsponsors.org/core/issue/sponsor?trackerURL=${baseUrl}/browse/${issue.key}</link>
+    <link linkId="manage-project-link" absolute="true">http://www.freedomsponsors.org/issue/sponsor?trackerURL=${baseUrl}/browse/${issue.key}</link>
   </web-item>
   <resource type="i18n" name="i18n" location="org.freedomsponsors.plugins.jira"/>
   <web-panel name="SponsorThis" i18n-name-key="sponsor-this.name" key="sponsor-this" location="atl.jira.view.issue.right.context" weight="1000">
